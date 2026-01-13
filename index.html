@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Rohit Muchhal | Resume</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <div class="side-nav">
+        <div class="logo">RM</div>
+        <ul>
+            <li><i class="bi bi-person" onclick="showSection('overview')"></i></li>
+            <li><i class="bi bi-bar-chart" onclick="showSection('skills')"></i></li>
+            <li><i class="bi bi-file-earmark-text" onclick="showSection('projects')"></i></li>
+            <li><i class="bi bi-mortarboard" onclick="showSection('education')"></i></li>
+            <li><i class="bi bi-envelope" onclick="showSection('contact')"></i></li>
+        </ul>
+    </div>
+
+    <div class="main-content container-fluid">
+        <div class="row resume-card m-4">
+
+
+            <div class="col-md-4 left-panel text-center">
+                <img src="img1.jpg" class="profile-img mb-4" alt="Profile Image">
+
+                <div class="name">Rohit Muchhal</div>
+                <div class="role">Software Developer</div>
+
+                <div class="contact mt-3">
+                    <p>📧 rohitmuchhal160703@gmail.com</p>
+                    <p>📞 9285523295</p>
+                    <a href="https://github.com/RohitMuchhal">🌐 GitHub</a>
+                </div>
+            </div>
+
+            <div class="col-md-8 right-panel">
+
+
+                <div id="overview" class="section active">
+                    <h2 class="section-title">Brief</h2>
+                    <p class="highlight">Computer Science & Engineering Student</p>
+                    <p>
+                        A hardworking and dedicated individual seeking to enhance and broaden my skills.
+                        A quick learner and team player, willing to push beyond my comfort zone to learn
+                        new technologies and deliver high-quality work.
+                    </p>
+                    <a href="Rohit_Muchhal_Resume.pdf" class="btn btn-outline-info mt-3" download>
+                        <i class="bi bi-download"></i> Download Resume
+                    </a>
+                </div>
+
+                <div id="skills" class="section">
+                    <h4 class="section-heading">Skills</h4>
+
+                    <div class="mb-3">
+                        <span>Java / Spring Boot</span>
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 89%"></div>
+                        </div>
+                    </div>
+
+                    <div class="mb-3">
+                        <span>C++ / DSA</span>
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 80%"></div>
+                        </div>
+                    </div>
+
+                    <div class="mb-3">
+                        <span>MySQL / DBMS</span>
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 88%"></div>
+                        </div>
+                    </div>
+
+                    <div class="mb-3">
+                        <span>HTML / CSS / JavaScript</span>
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 78%"></div>
+                        </div>
+                    </div>
+
+                    <div class="mb-4">
+                        <span>React & Git</span>
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 75%"></div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- <div id="projects" class="section">
+                    <h4 class="section-heading">Projects</h4>
+                    <ul>
+                        <li><strong>PokemonInsight</strong> – React-based Pokémon explorer</li>
+                        <li><strong>IWAS</strong> – Intelligent Workforce Allocation System</li>
+                    </ul>
+                </div> -->
+                <div id="projects" class="section">
+                    <h4 class="section-heading">Projects</h4>
+
+                    <div class="mb-4">
+                        <p><strong>PokemonInsight</strong></p>
+                        <p>
+                            Developed an interactive web application using React that fetches real-time Pokémon
+                            data from a public API. The platform allows users to explore Pokémon details such as
+                            stats, abilities, and images. Implemented dynamic UI updates, API integration, and
+                            responsive design to enhance user experience.
+                        </p>
+                        <p><small><strong>Tech:</strong> React, JavaScript, HTML, CSS</small></p>
+                    </div>
+
+                    <div class="mb-4">
+                        <p><strong>IWAS – Intelligent Workforce Allocation System</strong></p>
+                        <p>
+                            Designed and developed a smart workforce management system that allocates employees
+                            to projects based on skill matching. Implemented features for managing employee
+                            profiles, project assignments, and leave requests to ensure optimal resource utilization.
+                        </p>
+                        <p>
+                            Built the backend using Java and Spring Boot, and developed a responsive frontend
+                            using HTML, CSS, and JavaScript.
+                        </p>
+                        <p><small><strong>Tech:</strong> Java, Spring Boot, MySQL, HTML, CSS, JavaScript</small></p>
+                    </div>
+
+                </div>
+
+                <div id="education" class="section">
+                    <h4 class="section-heading">Education</h4>
+
+                    <div class="mb-3">
+                        <p><strong>B.Tech – Computer Science & Engineering</strong></p>
+                        <p>Medicaps University, Indore (2021 – 2025)</p>
+                        <p>CGPA: 9.00</p>
+                    </div>
+
+                    <div class="mb-3">
+                        <p><strong>Higher Secondary (12th)</strong></p>
+                        <p>Emerald Heights International School, Indore</p>
+                        <p>Percentage: 88%</p>
+                    </div>
+
+                    <div class="mb-3">
+                        <p><strong>Secondary (10th)</strong></p>
+                        <p>Emerald Heights International School, Indore</p>
+                        <p>Percentage: 90%</p>
+                    </div>
+                </div>
+
+
+
+                <div id="contact" class="section">
+                    <h4 class="section-heading">Contact</h4>
+                    <p>Email: rohitmuchhal160703@gmail.com</p>
+                    <p>Phone: 9285523295</p>
+                    <p>GitHub: <a href="https://github.com/RohitMuchhal">RohitMuchhal</a></p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+        function showSection(id) {
+            document.querySelectorAll('.section').forEach(sec => {
+                sec.classList.remove('active');
+            });
+            document.getElementById(id).classList.add('active');
+        }
+    </script>
+
+</body>
+
+</html>
